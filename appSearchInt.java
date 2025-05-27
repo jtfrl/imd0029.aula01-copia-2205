@@ -1,15 +1,8 @@
-/*
- * NÃO ESTÁ EM COMPILANDO
- * 
- */
-
-import SeqSearch.seqSearchInt;
-
-public class AppSearchInt{
+public class appSearchInt{ //nome daclasse deve ser igual ao nome do arquivo.
     public static void main(String[] args){
         int[] idades={12, 13, 18, 11};
 
-        int idadeFound=SeqSearch.seqSearch(idades, 12);
+        int idadeFound=seqSearch.seqSearch(idades, 12); //do arquivo SeqSearch.java
 
         System.out.println("Idade encontrada: " + idadeFound);
     }
